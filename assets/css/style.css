@@ -1,0 +1,143 @@
+@font-face {
+  font-family: 'OpenSans-Regular';
+  font-display: auto;
+  src: url('../fonts/OpenSans-Regular.ttf') format('truetype');
+}
+
+body{
+  padding: 0;
+  margin: 0;
+}
+
+header{
+  height: 158.692vw;
+  background: linear-gradient(135deg, rgba(239,225,217,1) 0%, rgba(239,225,217,1) 13%, rgba(208,153,158,1) 100%);
+  border-bottom: 2.13vw solid #eae4de;
+}
+
+
+.logo{
+  width: 15.157vw;
+  margin-left: 50%;
+  position: relative;
+  left: -9.6vw;
+  margin-top: 1.4527vw;
+}
+
+.twoImages{
+  margin-top: 6.489vw;
+  display: flex;
+  justify-content: center;
+}
+
+.twoImages img{
+  box-shadow: 87px 85px 172px 0px rgba(194,117,130,0.95);
+  width: 39.9515vw;
+  margin-left: 1.259vw;
+  margin-right: 1.259vw;
+}
+
+.about{
+  position: relative;
+  /* border: 1px solid red; */
+  margin-top: 13.0750vw;
+  padding-left: 8.4745vw;
+}
+.aboutImg{
+  width: 25.181vw;
+}
+.about p{
+  font-size: 1.4527vw;
+  width: 20.096vw;
+  margin-left: 7.99vw;
+  color: #905e5f;
+  font-family: 'OpenSans-Regular';
+}
+
+.aboutGirlImg{
+  position: absolute;
+  top: 1vw;
+  right: 2.13vw;
+  width: 54.624vw;
+}
+.aboutCircleImg{
+  position: absolute;
+  top: 9.1vw;
+  right: 12.832vw;
+  width: 38.64vw;
+}
+
+/* servicesSection start */
+.servicesSection{
+  height: 20.4842vw;
+  background: #b1756f;
+  box-shadow: 23px 23px 46px 0px rgba(0,0,0,0.34);
+  position: relative;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+}
+.servicesSection img{
+  width: 21.065vw;
+  height: 10.605vw;
+  margin-top: 3.14769vw;
+}
+/* servicesSection end */
+
+/* three image content start */
+.threeImageContent{
+  z-index: 1;
+  width: 100%;
+  height: 48.804vw;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.contentBox{
+  position: relative;
+  transition: 1.5s;
+  /* border: 1px solid red; */
+  height: 100%;
+  width: 0%;
+  flex-grow: 1;
+  background-position: center;
+  /* background-size: auto 150%; */
+  background-size:cover;
+}
+.contentBox:hover{
+  width: 80%;
+  /* background-size: auto 280%; */
+}
+
+.contentBox:nth-child(1){
+  background-image: url('../images/threeContent/1.jpg');
+}
+.contentBox:nth-child(2){
+  background-image: url('../images/threeContent/2.jpg');
+}
+.contentBox:nth-child(3){
+  background-image: url('../images/threeContent/3.jpg');
+}
+.contentBox:hover > .orangeOverlay{
+  opacity: 0;
+}
+.orangeOverlay{
+  transition: 2s;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  /* background-color: rgba(197,143,66,0.75); */
+}
+
+/* three image content end */
+
+/* blank section start */
+.blank{
+  position: relative;
+  height: 82.0823vw;
+  background: #ebe5df;
+}
+/* blank section end */
